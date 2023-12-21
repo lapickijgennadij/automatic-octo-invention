@@ -1,0 +1,16 @@
+struct AnchorPreferenceUsage: View {
+
+    var body: some View {
+        VStack {
+            ExampleView()
+            ExampleView2()
+        }
+    }
+}
+// .first(where: { $0 > 5 })
+//            .tryFirst(where: { value in
+//                if value == 2 {
+//                    throw URLError(.badServerResponse)
+//                }
+//                return value > 3
+//            })
